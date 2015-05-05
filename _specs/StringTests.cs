@@ -11,7 +11,7 @@ namespace ThingDoer._specs
         public void ReverseString()
         {
             const string str = "foo";
-            str.ReverseThing().Should().Be("oof");
+            str.ReverseThing().Should().Be("oofa");
         }
 
         [Test]
