@@ -20,5 +20,13 @@ namespace ThingDoer._specs
             const string str = "wat";
             str.AddFoo().Should().Be("watfoo");
         }
+
+        [Test]
+        public void AppendFooAndReverseChain()
+        {
+            const string str = "wat";
+            str.AddFoo().ReverseThing().Should().Be("ooftaw");
+        }
+
     }
 }
