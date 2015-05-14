@@ -14,4 +14,7 @@
       <dependency id="NUnit" version="2.6.4" />
     </dependencies>
   </metadata>
+  <files>
+    <file src="bin/Debug/ThingDoer.dll" target="lib/net45" /> 
+  </files>
 </package>
