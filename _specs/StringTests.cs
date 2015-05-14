@@ -43,6 +43,13 @@ namespace ThingDoer._specs
             str.ReverseThing().AddFoo().Should().Be("tawfoo");
         }
 
+        [Test]
+        public void SwapCase()
+        {
+            const string str = "My Dog";
+            str.SwapCase().Should().Be("mY dOG");
+        }
+
 
     }
 }
