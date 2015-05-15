@@ -50,6 +50,13 @@ namespace ThingDoer._specs
             str.SwapCase().Should().Be("mY dOG");
         }
 
+        [Test]
+        public void SwapCaseAddFoo()
+        {
+            const string str = "My Dog";
+            str.SwapCase().AddFoo().Should().Be("mY dOGfoo");
+        }
+
 
     }
 }
