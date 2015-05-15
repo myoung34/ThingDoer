@@ -29,4 +29,4 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyProduct("ThingDoer")]
 [assembly: AssemblyCopyright("Copyright © 2015")]
 [assembly: ComVisible(false)]
-[assembly: AssemblyVersion("0.0.5")]
+[assembly: AssemblyVersion("0.0.6")]

@@ -23,6 +23,11 @@ namespace ThingDoer.API
             return str + "wat";
         }
 
+        public static string PrecedeZero(this string str)
+        {
+            return "0" + str;
+        }
+
         public static string SwapCase(this string str)
         {
             var finalStr = new StringBuilder();
