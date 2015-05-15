@@ -18,6 +18,11 @@ namespace ThingDoer.API
             return str + "foo";
         }
 
+        public static string AddWat(this string str)
+        {
+            return str + "wat";
+        }
+
         public static string SwapCase(this string str)
         {
             var finalStr = new StringBuilder();
