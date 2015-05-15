@@ -57,6 +57,11 @@ namespace ThingDoer._specs
             str.SwapCase().AddFoo().Should().Be("mY dOGfoo");
         }
 
-
+        [Test]
+        public void AddWat()
+        {
+            const string str = "asdf";
+            str.AddWat().Should().Be("asdfwat");
+        }
     }
 }
