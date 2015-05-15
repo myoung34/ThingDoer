@@ -77,5 +77,12 @@ namespace ThingDoer._specs
             const string str = "asdf";
             str.AddWat().SwapCase().AddFoo().Should().Be("ASDFWATfoo");
         }
+
+        [Test]
+        public void PrecedeZero()
+        {
+            const string str = "asdf";
+            str.PrecedeZero().Should().Be("0asdf");
+        }
     }
 }
